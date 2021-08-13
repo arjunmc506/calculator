@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(195, 212, 245);
+}
+.cal{
+
+   margin: auto;
+   margin-top: 50px;
+   background-color: rgb(130, 207, 238);
+   height: 433px;
+   width: 301px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.inputarea{
+    border: 0;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 242px;
+    height: 75px;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 20px;
+    background-color: rgb(43, 40, 40);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.btn{
+
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+     
+    width: 60px;
+    height: 50px;
+        
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    
+}
+.equal{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: #f0591d;
+     
+    width: 60px;
+    height: 175px;
+        
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+.btn1{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: -57px;
+    border: 0;
+    color: #495069;
+    background-color: white;
+     
+    width: 60px;
+    height: 50px;
+        
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+.btn2{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: -118px;
+    border: 0;
+    color: #495069;
+    background-color: white;
+     
+    width: 60px;
+    height: 50px;
+        
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+.btn3{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: -115px;
+    border: 0;
+    color: #495069;
+    background-color: white;
+     
+    width: 60px;
+    height: 50px;
+        
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+.btn0{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: -115px;
+    border: 0;
+    color: #495069;
+    background-color: white;
+     
+    width: 134px;
+    height: 50px;
+        
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+.btnc{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: -115px;
+    border: 0;
+    color: #495069;
+     
+    width: 60px;
+    height: 50px;
+        
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+.btn:hover{
+    box-shadow: 0 4px #644294;
+    background-color: #8f5fda;
+}
+
+.btnc:hover{
+    box-shadow: 0 4px #644294;
+    background-color: #8f5fda;
+}
+.btn1:hover{
+    box-shadow: 0 4px #34303b;
+    background-color: #cde1e4;
+}
+.btn2:hover{
+    box-shadow: 0 4px #34303b;
+    background-color: #cde1e4;
+}
+.btn3:hover{
+    box-shadow: 0 4px #34303b;
+    background-color: #cde1e4;
+}
+.btn0:hover{
+    box-shadow: 0 4px #34303b;
+    background-color: #cde1e4;
+}
+
+.equal:hover{
+    box-shadow: 0 4px #34303b;
+    background-color: #4532f1;
+    color: white;
+}

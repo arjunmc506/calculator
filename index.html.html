@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <script src="new.js"></script>
+</head>
+
+<body>
+    <div class="cal">
+        <input type="text" class="inputarea" id="inpt">
+        <br>
+        <input onclick="displayvalue('+')" class="btn" type="button" value="+">
+        <input class="btn" type="button" value="-" onclick="displayvalue('-')">
+        <input class="btn" type="button" value="X" onclick="displayvalue('*')">
+        <input class="btn" type="button" value="/" onclick="displayvalue('/')">
+        <br>
+
+        <input class="btn1" type="button" value="7" onclick="displayvalue('7')">
+        <input class="btn1" type="button" value="8" onclick="displayvalue('8')">
+        <input class="btn1" type="button" value="9" onclick="displayvalue('9')">
+        <input class="equal" type="button" value="=" onclick=evalu()>
+        <br>
+        <input class="btn2" type="button" value="4" onclick="displayvalue('4')">
+        <input class="btn2" type="button" value="5" onclick="displayvalue('5')">
+        <input class="btn2" type="button" value="6" onclick="displayvalue('6')">
+
+        <br>
+        <input class="btn3" type="button" value="1" onclick="displayvalue('1')">
+        <input class="btn3" type="button" value="2" onclick="displayvalue('2')">
+        <input class="btn3" type="button" value="3" onclick="displayvalue('3')">
+
+        <br>
+        <input class="btn0" type="button" value="0" onclick="displayvalue('0')">
+        <input class="btnc" type="button" value="C" onclick=" clearbox()">
+        <input class="btnc" type="button" value="<<<" onclick="backspace()">
+    </div>
+
+</body>
+
+</html>
